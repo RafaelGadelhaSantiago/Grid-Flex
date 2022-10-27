@@ -1,0 +1,68 @@
+:root {
+  --font-family: Arial, sans-serif;
+  --default-bg-color: #1d1e20;
+  --default-text-color: #fff;
+
+  --spacing: 1.95rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-family);
+  text-decoration: none;
+}
+
+body {
+  color: var(--default-text-color);
+}
+
+/* Header */
+.header {
+  background-color: var(--default-bg-color);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo, .link {
+  color: var(--default-text-color);
+}
+
+.logo {
+    margin-left: var(--spacing);
+    font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu .item {
+    display: block;
+    padding: var(--spacing);
+}
+
+/* Main Section */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+section{
+    background-color: blue;
+    flex: 1 1 8rem;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+}
